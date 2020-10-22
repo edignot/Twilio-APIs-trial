@@ -10,6 +10,6 @@ client.messages
   .create({
     to: toNumber,
     from: fromNumber,
-    body: 'Hello Edita!!!',
+    body: 'Hello!!!',
   })
   .then((message) => console.log(message))
